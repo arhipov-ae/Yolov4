@@ -1,0 +1,36 @@
+{
+    "model" : {
+        "architecture":         "Mod B Yolo",
+        "input_size":           608,
+        "anchors":              [0.85574,0.69950, 0.78886,1.42786, 1.30235,2.33967, 0.31657,0.54759, 0.48909,0.90296],
+        "max_box_per_image":    20,
+        "labels":               ["5.19.1", "2.1", "sign"]
+    },
+
+    "train": {
+        "train_image_folder":   "/media/data/ObjectDetectionExperiments/Datasets/5_RTSD/CustomSets/3-ThreeFull/train/images/",
+        "train_annot_folder":   "/media/data/ObjectDetectionExperiments/Datasets/5_RTSD/CustomSets/3-ThreeFull/train/annotations/",
+          
+        "train_times":          1,
+        "pretrained_weights":   "/media/data/ObjectDetectionExperiments/Projects/2_YOLOs/YOLOv2_Orlova/Experiencor/basic-yolo-keras/logs/3B-0/weights.hdf5",
+        "batch_size":           12,
+        "learning_rate":        1e-4,
+        "nb_epoch":             500,
+        "warmup_epochs":        0,
+
+        "object_scale":         8.0,
+        "no_object_scale":      1.0,
+        "coord_scale":          5.0,
+        "class_scale":          5.0,
+
+        "saved_weights_name":   "",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "/media/data/ObjectDetectionExperiments/Datasets/5_RTSD/CustomSets/3-ThreeFull/val/images/",
+        "valid_annot_folder":   "/media/data/ObjectDetectionExperiments/Datasets/5_RTSD/CustomSets/3-ThreeFull/val/annotations/",
+
+        "valid_times":          1
+    }
+}

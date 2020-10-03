@@ -1,0 +1,38 @@
+{
+    "model" : {
+        "architecture":         "Tiny Yolo Scratch",
+        "input_size":           [960,544],
+        "anchors":              [0.44405,0.77938, 0.64346,1.13530, 1.42034,2.57742, 0.30243,0.51383, 0.94031,1.66730],
+        "max_box_per_image":    20,
+        "labels":               ["Box", "Bus_Stop_Sign", "Electrical_Shield", "Children_Sign", "Bricks", "Circle_Marker", "Banner_Robot", "Fire_Shield_opposite", "Crosswalk_Blue_Sign", "Crosswalk_Light_Sign", "Fire_Shield", "Traffic_Light_Triple", "Chess_Board", "Traffic_Light", "Triangle_Marker"]
+    },
+
+    "train": {
+	"logdir":               "logs/nissan/",
+        "train_image_folder":   "/media/data/ObjectDetectionExperiments/Datasets/NISSAN_devkit/data/Images/",
+        "train_annot_folder":   "/media/data/ObjectDetectionExperiments/Datasets/NISSAN_devkit/data/VOC_annotations/",
+          
+        "train_times":          1,
+        "pretrained_weights":   "",
+        "batch_size":           12,
+        "learning_rate":        1e-4,
+        "nb_epoch":             500,
+        "warmup_epochs":        0,
+
+        "object_scale":         8.0,
+        "no_object_scale":      1.0,
+        "coord_scale":          5.0,
+        "class_scale":          5.0,
+
+        "saved_weights_name":   "nissan_test.h5",
+	"weights_saving_freq":  10,
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "/media/data/ObjectDetectionExperiments/Datasets/NISSAN_devkit/data/Images/",
+        "valid_annot_folder":   "/media/data/ObjectDetectionExperiments/Datasets/NISSAN_devkit/data/test/VOC_annotations/",
+
+        "valid_times":          1
+    }
+}

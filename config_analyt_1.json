@@ -1,0 +1,38 @@
+{
+    "model" : {
+        "architecture":         "Tiny Yolo Scratch",
+        "input_size":           [160,160],
+        "anchors":              [3.19,1.63, 3.32,2.58, 0.78,0.83, 2.89,3.32, 1.42,3.09],
+        "max_box_per_image":    20,
+        "labels":               ["car", "person"]
+    },
+
+    "train": {
+        "logdir":               "logs/analytics_2/",
+        "train_image_folder":   "/media/data/ObjectDetectionExperiments/Datasets/13_BerkeleyDeepDrive/bdd100k/car-person/cropped/VOC_train_imgs/",
+        "train_annot_folder":   "/media/data/ObjectDetectionExperiments/Datasets/13_BerkeleyDeepDrive/bdd100k/car-person/cropped/VOC_train_anns/",
+          
+        "train_times":          1,
+        "pretrained_weights":   "",
+        "batch_size":           32,
+        "learning_rate":        1e-4,
+        "nb_epoch":             100,
+        "warmup_epochs":        0,
+
+        "object_scale":         8.0,
+        "no_object_scale":      1.0,
+        "coord_scale":          5.0,
+        "class_scale":          5.0,
+
+        "saved_weights_name":   "weights",
+        "weights_saving_freq":  10,
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "/media/data/ObjectDetectionExperiments/Datasets/13_BerkeleyDeepDrive/bdd100k/car-person/cropped/VOC_val_imgs/",
+        "valid_annot_folder":   "/media/data/ObjectDetectionExperiments/Datasets/13_BerkeleyDeepDrive/bdd100k/car-person/cropped/VOC_val_anns/",
+
+        "valid_times":          1
+    }
+}

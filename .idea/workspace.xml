@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e750a64-6b34-491d-a18f-a7427dd41cad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FiraMono-Medium.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_15.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_analyt_1-0.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_analyt_1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_for_predict.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_for_train.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_for_train0.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_for_train2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_for_train22.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_for_train3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_for_train_docking_tiny_scratch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config_for_train_nissan.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_scripts/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_scripts/convert_to_xml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_scripts/predictor_docking.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/my_scripts/predictor_nissan.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Yolo Step-by-Step.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/Blood Cell Detection.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/cat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/dog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/eagle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/giraffe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/horses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/person.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/scream.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend.py" afterPath="$PROJECT_DIR$/backend.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend.py" afterPath="$PROJECT_DIR$/frontend.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen_anchors.py" afterPath="$PROJECT_DIR$/gen_anchors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/predict.py" afterPath="$PROJECT_DIR$/predict.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preprocessing.py" afterPath="$PROJECT_DIR$/preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train.py" afterPath="$PROJECT_DIR$/train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="predictor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_scripts/predictor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4200">
+              <caret line="326" column="41" lean-forward="false" selection-start-line="326" selection-start-column="41" selection-end-line="326" selection-end-column="41" />
+              <folding>
+                <element signature="e#25#40#0" expanded="true" />
+                <element signature="e#3695#5356#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="102" column="30" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="predictor_nissan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_scripts/predictor_nissan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3705">
+              <caret line="258" column="12" lean-forward="false" selection-start-line="258" selection-start-column="12" selection-end-line="258" selection-end-column="12" />
+              <folding>
+                <element signature="e#25#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="predictor_docking.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_scripts/predictor_docking.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4485">
+              <caret line="310" column="82" lean-forward="false" selection-start-line="310" selection-start-column="82" selection-end-line="310" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trainer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_scripts/trainer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="126" column="37" lean-forward="false" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_for_train_gazebo.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config_for_train_gazebo.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="114" column="41" lean-forward="false" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backend.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frontend.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2190">
+              <caret line="156" column="51" lean-forward="false" selection-start-line="156" selection-start-column="51" selection-end-line="156" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'</find>
+      <find>performDetect</find>
+      <find>compi</find>
+      <find>predict_from_dir</find>
+      <find>draw_truth</find>
+      <find>train_imgs</find>
+      <find>train_labels</find>
+      <find>gener</find>
+      <find>decimals</find>
+      <find>draw_box</find>
+      <find>_predict_one</find>
+      <find>rmtree</find>
+      <find>Tiny Yolo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/my_scripts/convert_LISA_to_xml.py" />
+        <option value="$PROJECT_DIR$/fromDarknetModel/config.json" />
+        <option value="$PROJECT_DIR$/logs/16/note.txt" />
+        <option value="$PROJECT_DIR$/logs/17/note.txt" />
+        <option value="$PROJECT_DIR$/logs/18/note.txt" />
+        <option value="/../Datasets/7_Uniform/copy.py" />
+        <option value="/../Datasets/7_Uniform/datacopy.py" />
+        <option value="$PROJECT_DIR$/logs/13/config.json" />
+        <option value="$PROJECT_DIR$/TEST.py" />
+        <option value="$PROJECT_DIR$/my_scripts/convert_to_xml.py" />
+        <option value="$PROJECT_DIR$/../../../YOLO_Komarov/coco_to_voc/select_data.py" />
+        <option value="$PROJECT_DIR$/../../../YOLO_Komarov/coco_to_voc/format_JSON.py" />
+        <option value="$PROJECT_DIR$/../../../YOLO_Komarov/coco_to_voc/pycocotools/mask.py" />
+        <option value="$PROJECT_DIR$/../../../YOLO_Komarov/coco_to_voc/cocoapi-master/PythonAPI/setup.py" />
+        <option value="$PROJECT_DIR$/../../../YOLO_Komarov/basic-yolo-keras-master/predict.py" />
+        <option value="$PROJECT_DIR$/../../../YOLO_Komarov/basic-yolo-keras-master/config.json" />
+        <option value="$PROJECT_DIR$/../../../YOLO_Komarov/YOLO_SV/backend.py" />
+        <option value="$PROJECT_DIR$/../../../YOLO_Komarov/YOLO_SV/my_scripts/predictor.py" />
+        <option value="$PROJECT_DIR$/my_scripts/test2.py" />
+        <option value="$PROJECT_DIR$/logs/20/config2.json" />
+        <option value="$PROJECT_DIR$/logs/22/config2.json" />
+        <option value="$PROJECT_DIR$/logs/21/config2.json" />
+        <option value="$PROJECT_DIR$/my_scripts/test.py" />
+        <option value="$PROJECT_DIR$/config_for_train3.json" />
+        <option value="$PROJECT_DIR$/config_for_train.json" />
+        <option value="$PROJECT_DIR$/logs/33/config_for_train2.json" />
+        <option value="$PROJECT_DIR$/config_for_train0.json" />
+        <option value="$PROJECT_DIR$/config_for_train2.json" />
+        <option value="$PROJECT_DIR$/config_for_train22.json" />
+        <option value="$PROJECT_DIR$/my_scripts/test3.py" />
+        <option value="$PROJECT_DIR$/config_for_train_nissan.json" />
+        <option value="$USER_HOME$/Desktop/ML/Выполненные/lab0.py" />
+        <option value="$PROJECT_DIR$/test.json" />
+        <option value="$PROJECT_DIR$/my_scripts/clasterizator.py" />
+        <option value="$PROJECT_DIR$/config_analyt_1-0.json" />
+        <option value="$PROJECT_DIR$/preprocessing.py" />
+        <option value="$PROJECT_DIR$/config_analyt_1.json" />
+        <option value="$PROJECT_DIR$/../../../Darknet/darknet/python/darknet.py" />
+        <option value="$PROJECT_DIR$/../../../Darknet/darknet/python/darknet-my.py" />
+        <option value="$PROJECT_DIR$/../../../Darknet/darknet/python/darknet-myAB.py" />
+        <option value="$PROJECT_DIR$/config_15.json" />
+        <option value="$PROJECT_DIR$/frontend.py" />
+        <option value="$PROJECT_DIR$/gen_anchors.py" />
+        <option value="$PROJECT_DIR$/config_for_train_docking_tiny_scratch.json" />
+        <option value="$PROJECT_DIR$/backend.py" />
+        <option value="$PROJECT_DIR$/my_scripts/predictor_nissan.py" />
+        <option value="$PROJECT_DIR$/my_scripts/predictor_docking.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/my_scripts/predictor.py" />
+        <option value="$PROJECT_DIR$/my_scripts/trainer.py" />
+        <option value="$PROJECT_DIR$/config_for_train_gazebo.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1985" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yolo2_Keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yolo2_Keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yolo2_Keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yolo2_Keras" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my_scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fromDarknetModel/YAD2K" />
+      <recent name="$PROJECT_DIR$/logs/yolo_25ep/3" />
+      <recent name="$PROJECT_DIR$/logs/yolo" />
+      <recent name="$PROJECT_DIR$/logs" />
+      <recent name="$PROJECT_DIR$/my_scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my_scripts" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/../../../Darknet/darknet/python" />
+      <recent name="$PROJECT_DIR$/logs/33" />
+      <recent name="$PROJECT_DIR$/logs/22" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.trainer">
+    <configuration default="false" name="trainer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="basic-yolo-keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_scripts/trainer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="darknet-my" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../Darknet/darknet/python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="basic-yolo-keras-master" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../Darknet/darknet/python/darknet-my.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="predictor_nissan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="LD_LIBRARY_PATH:/usr/local/cuda/lib64" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="basic-yolo-keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_scripts/predictor_nissan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="predictor_docking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="LD_LIBRARY_PATH:/usr/local/cuda/lib64" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="basic-yolo-keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_scripts/predictor_docking.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="predictor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="LD_LIBRARY_PATH" value="LD_LIBRARY_PATH:/usr/local/cuda/lib64" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="basic-yolo-keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_scripts/predictor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coco_to_voc" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="basic-yolo-keras" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coco_to_voc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coco_to_voc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coco_to_voc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coco_to_voc" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.trainer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.darknet-my" />
+      <item index="2" class="java.lang.String" itemvalue="Python.predictor_nissan" />
+      <item index="3" class="java.lang.String" itemvalue="Python.predictor_docking" />
+      <item index="4" class="java.lang.String" itemvalue="Python.predictor" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.trainer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.predictor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.predictor_docking" />
+        <item index="3" class="java.lang.String" itemvalue="Python.predictor_nissan" />
+        <item index="4" class="java.lang.String" itemvalue="Python.darknet-my" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="coco_to_voc" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e750a64-6b34-491d-a18f-a7427dd41cad" name="Default" comment="" />
+      <created>1518438569486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1518438569486</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1342318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5224949" sideWeight="0.5045822" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14339623" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3149847" sideWeight="0.4954178" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44750255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48898217" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fromDarknetModel/convert.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/my_scripts/clasterizator.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/my_scripts/test2.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/ML/Выполненные/kNN/kNN.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../Darknet/darknet/python/darknet-myAB.py</url>
+          <line>450</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="137" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my_scripts/test2.py" />
+    <entry file="file://$PROJECT_DIR$/my_scripts/test3.py" />
+    <entry file="file://$PROJECT_DIR$/config_for_train22.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/3full/config.json" />
+    <entry file="file://$PROJECT_DIR$/logs/3B/config.json" />
+    <entry file="file://$PROJECT_DIR$/config_for_train2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="149" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/keras/callbacks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="670" column="8" lean-forward="false" selection-start-line="670" selection-start-column="8" selection-end-line="670" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/34/config.json" />
+    <entry file="file://$PROJECT_DIR$/logs/24/config.json" />
+    <entry file="file://$USER_HOME$/Desktop/ML/Выполненные/lab0.py" />
+    <entry file="file://$USER_HOME$/Desktop/ML/Выполненные/lab00.py" />
+    <entry file="file://$USER_HOME$/Desktop/ML/Выполненные/kNN/kNN.ipynb" />
+    <entry file="file://$USER_HOME$/Desktop/ML/Выполненные/kNN/kNN.py" />
+    <entry file="file://$PROJECT_DIR$/logs/36/config.json" />
+    <entry file="file://$PROJECT_DIR$/logs/21/config.json" />
+    <entry file="file://$PROJECT_DIR$/logs/22/config.json" />
+    <entry file="file://$PROJECT_DIR$/logs/19/config.json" />
+    <entry file="file://$PROJECT_DIR$/logs/20/config.json" />
+    <entry file="file://$PROJECT_DIR$/logs/33/config.json" />
+    <entry file="file://$PROJECT_DIR$/test.json" />
+    <entry file="file://$PROJECT_DIR$/logs/15_signs_1/config.json" />
+    <entry file="file://$PROJECT_DIR$/logs/15_signs_2/config.json" />
+    <entry file="file://$PROJECT_DIR$/my_scripts/clasterizator.py" />
+    <entry file="file://$PROJECT_DIR$/config_analyt_1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="1183" column="0" lean-forward="false" selection-start-line="1183" selection-start-column="0" selection-end-line="1183" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_for_predict.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Darknet/darknet/python/darknet.py" />
+    <entry file="file://$PROJECT_DIR$/../../../Darknet/darknet/python/darknet-my.py" />
+    <entry file="file://$PROJECT_DIR$/../../../Darknet/darknet/python/darknet-myAB.py" />
+    <entry file="file://$PROJECT_DIR$/logs/15_signs_3/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/nissan_1/config.json" />
+    <entry file="file://$PROJECT_DIR$/config_analyt_1-0.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEST.py" />
+    <entry file="file://$PROJECT_DIR$/my_scripts/log.csv" />
+    <entry file="file://$PROJECT_DIR$/config_for_train.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_anchors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="141" column="3" lean-forward="true" selection-start-line="141" selection-start-column="3" selection-end-line="141" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_15.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="125" column="11" lean-forward="false" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_for_train_nissan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_for_train_docking_tiny_scratch.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_scripts/convert_to_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="156" column="51" lean-forward="false" selection-start-line="156" selection-start-column="51" selection-end-line="156" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="102" column="30" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_scripts/predictor_docking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4485">
+          <caret line="310" column="82" lean-forward="false" selection-start-line="310" selection-start-column="82" selection-end-line="310" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_scripts/predictor_nissan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3705">
+          <caret line="258" column="12" lean-forward="false" selection-start-line="258" selection-start-column="12" selection-end-line="258" selection-end-column="12" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_scripts/predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="326" column="41" lean-forward="false" selection-start-line="326" selection-start-column="41" selection-end-line="326" selection-end-column="41" />
+          <folding>
+            <element signature="e#25#40#0" expanded="true" />
+            <element signature="e#3695#5356#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="41" lean-forward="false" selection-start-line="114" selection-start-column="41" selection-end-line="114" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_scripts/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="126" column="37" lean-forward="false" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_for_train_gazebo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+{
+    "model" : {
+        "architecture":         "SqueezeNet",
+        "input_size":           [640, 640],
+        "anchors":              [1.45,3.77, 3.39,1.86, 3.50,4.35, 7.05,7.47, 14.74,13.48],
+        "max_box_per_image":    20,
+        "labels":               ["chair", "box", "trash", "fire"]
+    },
+
+    "train": {
+	"logdir":               "logs/gazebo_3rd_SN/",
+        "train_image_folder":   "/media/ivan/Database/datasets/gazebo_dataset/training/images/",
+        "train_annot_folder":   "/media/ivan/Database/datasets/gazebo_dataset/training/annotations/",
+          
+        "train_times":          1,
+        "pretrained_weights":   "",
+        "batch_size":           12,
+        "learning_rate":        1e-4,
+        "nb_epoch":             500,
+        "warmup_epochs":        0,
+
+        "object_scale":         8.0,
+        "no_object_scale":      1.0,
+        "coord_scale":          5.0,
+        "class_scale":          5.0,
+
+        "saved_weights_name":   "gazebo_3rd.h5",
+	"weights_saving_freq":  10,
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "/media/ivan/Database/datasets/gazebo_dataset/training/images/",
+        "valid_annot_folder":   "/media/ivan/Database/datasets/gazebo_dataset/training/annotations/",
+
+        "valid_times":          1
+    }
+}

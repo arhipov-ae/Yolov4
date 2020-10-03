@@ -1,0 +1,36 @@
+{
+    "model" : {
+        "architecture":         "Tiny Yolo",
+        "input_size":           [2048,1536],
+        "anchors":              [0.44405,0.77938, 0.64346,1.13530, 1.42034,2.57742, 0.30243,0.51383, 0.94031,1.66730],
+        "max_box_per_image":    20,
+        "labels":               ["formless", "uniform"]
+    },
+
+    "train": {
+        "train_image_folder":   "/media/data/ObjectDetectionExperiments/Datasets/7_Uniform/images/",
+        "train_annot_folder":   "/media/data/ObjectDetectionExperiments/Datasets/7_Uniform/annotations/",
+          
+        "train_times":          1,
+        "pretrained_weights":   "",
+        "batch_size":           16,
+        "learning_rate":        1e-3,
+        "nb_epoch":             100,
+        "warmup_epochs":        0,
+
+        "object_scale":         8.0,
+        "no_object_scale":      1.0,
+        "coord_scale":          5.0,
+        "class_scale":          1.0,
+
+        "saved_weights_name":   "/media/data/ObjectDetectionExperiments/Projects/2_YOLOs/YOLOv2_Orlova/Experiencor/basic-yolo-keras/logs/24/weights",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "",
+        "valid_annot_folder":   "",
+
+        "valid_times":          1
+    }
+}

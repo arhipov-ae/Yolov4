@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../YOLO_Komarov/YOLO_SV/.idea/YOLO_SV.iml" filepath="$PROJECT_DIR$/../../../YOLO_Komarov/YOLO_SV/.idea/YOLO_SV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/basic-yolo-keras.iml" filepath="$PROJECT_DIR$/.idea/basic-yolo-keras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../YOLO_Komarov/basic-yolo-keras-master/.idea/basic-yolo-keras-master.iml" filepath="$PROJECT_DIR$/../../../YOLO_Komarov/basic-yolo-keras-master/.idea/basic-yolo-keras-master.iml" />
+    </modules>
+  </component>
+</project>
